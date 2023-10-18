@@ -28,3 +28,22 @@ This is a simple ToDoList app built using Redux. It allows you to manage your ta
 3. Install the required dependencies:
 
 `npm install`
+
+4. Open your web browser and access the app at [http://localhost:3000](http://localhost:3000).
+
+### How to Use
+
+- **Adding a Task:** Enter a title and description in the input fields and click the "Add" button.
+
+- **Completing a Task:** Click the checkbox next to a task to mark it as completed.
+
+- **Deleting a Task:** Click the "Delete" button next to a task to remove it from the list.
+
+- **Filtering Tasks:** Use the "Filter" buttons at the top to filter tasks by All, Completed, or Incomplete.
+
+### Dependencies
+
+- React - A JavaScript library for building user interfaces.
+- Redux - A predictable state container for managing application state.
+
+
