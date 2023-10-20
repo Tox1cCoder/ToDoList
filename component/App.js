@@ -1,11 +1,12 @@
 import html from '../core.js'
 
+import Header from '../component/Header.js'
+
 function App() {
     return html`
-    <header class="header">
-        <h1>todos</h1>
-        <input class="new-todo" placeholder="What needs to be done?" autofocus>
-    </header>
+    <section class="todoapp">
+        ${Header()}
+    </section>
     `
 }
 
