@@ -1,49 +1,37 @@
-# ToDoList App with Redux
-
-This is a simple ToDoList app built using Redux. It allows you to manage your tasks efficiently, providing features for adding, deleting, and marking tasks as completed. Redux is used to manage the state of the application, ensuring a smooth and consistent user experience.
-
-![TodoList App Screenshot](todo-app-screenshot.png)
+# Simple Todo List Web App with Tailwind CSS and JavaScript
 
 ## Features
 
-- Add tasks with titles and descriptions.
+- Add new tasks with a user-friendly interface.
 - Mark tasks as completed.
-- Delete tasks you no longer need.
-- Filter tasks by All, Completed, or Incomplete.
+- Delete completed tasks or those no longer needed.
+- Save tasks to the local storage for persistent data.
+- Schedule your to-dos
+- Change to-dos status
+- Filter to-dos by status
+
+## Live Demo
+
+You can check out the live demo of the Todo List web app [here](https://abdellatif-laghjaj.github.io/todo-list/)).
+
+## Screenshots
+
+![image](https://github.com/abdellatif-laghjaj/todo-list/assets/79521157/2bc510e2-5f2f-456b-acc2-31b8c8232d93)
+
+
+## Technologies Used
+
+- HTML5: The structure of the web app.
+- CSS3 with Tailwind CSS: For styling the app beautifully.
+- JavaScript: To handle the interactive functionality of the app.
+- Local Storage: To save tasks for persistent data across browser sessions.
 
 ## Getting Started
 
-**Prerequisites:** Make sure you have Node.js and npm (Node Package Manager) installed on your machine. You can download and install them from the official [Node.js website](https://nodejs.org/).
+To run the Todo List web app on your local machine, follow these steps:
 
-### Installation
+Clone the repository:
 
-1. Clone this repository to your local machine using the following command:
-
-`git clone https://github.com/yourusername/todo-list-redux.git`
-
-2. Navigate to the project directory:
-
-`cd todo-list-redux`
-
-3. Install the required dependencies:
-
-`npm install`
-
-4. Open your web browser and access the app at [http://localhost:3000](http://localhost:3000).
-
-### How to Use
-
-- **Adding a Task:** Enter a title and description in the input fields and click the "Add" button.
-
-- **Completing a Task:** Click the checkbox next to a task to mark it as completed.
-
-- **Deleting a Task:** Click the "Delete" button next to a task to remove it from the list.
-
-- **Filtering Tasks:** Use the "Filter" buttons at the top to filter tasks by All, Completed, or Incomplete.
-
-### Dependencies
-
-- React - A JavaScript library for building user interfaces.
-- Redux - A predictable state container for managing application state.
-
-
+```bash
+git clone https://github.com/abdellatif-laghjaj/todo-list.git
+```
